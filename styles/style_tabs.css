@@ -1,0 +1,94 @@
+.main{
+    border: 2px solid red;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto 50px auto;
+}
+.main_tabs_banner{
+    border-left: 1px solid #C6CBCD;
+    border-right: 1px solid #C6CBCD;
+    border-bottom: 1px solid #C6CBCD;
+    margin: -1px 0 0px 0px;
+    height: 500px;
+}
+
+.main_tabs-left{
+    display: inline-block;
+    height: 500px;
+    margin-left: 100px;
+    margin-right: 24px;
+    vertical-align: top;
+}
+.main_tabs-right{
+    display: inline-block;
+}
+.main_tabs__buttons-tab_1{
+    display: inline-block;
+    border: 1px solid #C6CBCD;
+    border-bottom:none;
+    background-color: #fff;
+    border-radius: 5px 5px 0px 0px;
+    width: 203px;
+    height: 40px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+    margin: 1px 0px 0px 0px;
+    text-align: center;
+}
+.main_tabs__buttons-tab{
+    display: inline-block;
+    border: none;
+    border-bottom: 1px solid #C6CBCD;
+    background-color: #fff;
+    width: 184px;
+    height: 40px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+    margin: 0 -5px 0 -4px;
+    text-align: center;
+}
+.main_tabs__buttons-tab:last-child{
+    padding-right: 585px;
+}
+.main_tabs-left__title{
+    margin: 0;
+    height: 83px;
+    text-align:left;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    padding-top: 41px;
+    vertical-align: middle;
+    margin-bottom: 27px;
+}
+.main_tabs-left__subtitle{
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    width: 570px;
+    height: 210px;
+    margin-bottom: 27px;
+    text-align: left;
+}
+.main_tabs-left__button{
+    width: 270px;
+    height: 58px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background: #EC7979;
+    border: #EC7979;
+}
+.main_tabs-right__img{
+    width: 470px;
+    height: 500px;
+}
