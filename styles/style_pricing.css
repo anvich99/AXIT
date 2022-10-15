@@ -1,0 +1,105 @@
+.container_flex{
+    display: flex;
+    width: 100%;
+
+
+}
+.main-pricing{
+    width: 100%;
+    height: 950px;
+    background: #F5F5F5;
+}
+.main-pricing__title{
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 150px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    height: 150px;
+    margin-top: 50px;
+}
+.main-pricing__line{
+    margin: 0 auto 40px auto;
+    border-bottom: 1px solid #EC7979;
+    width: 170px;
+    background: #EC7979;
+}
+.main-pricing__subtitle{
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #86878B;
+    margin-bottom: 79px;
+}
+
+.main-pricing-items{
+    display: flex;
+    justify-content: center;
+}
+
+.main-pricing-items-price{
+    margin-right: 30px;
+    width: 370px;
+    height: 510px;
+    filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
+}
+.main-pricing-items-price:last-child{
+    margin-right: 0px;
+}
+.main-pricing-items-price__type{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background: #333333;
+    border: 2px solid #F5F5F5;
+    height: 60px;
+    line-height: 60px;
+}
+
+.main-pricing-items-price__cost{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #333333;
+    border: 2px solid #F5F5F5;
+    height: 100px;
+    line-height: 100px;
+}
+
+.main-pricing-items-price__free{
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    height: 50px;
+    background: #333333;
+    border: 2px solid #F5F5F5;
+    line-height: 50px;
+}
+
+.main-pricing-items-price__size{
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #86878B;
+    height: 50px;
+    background: #FFFFFF;
+    border: 2px solid #F5F5F5;
+    line-height: 50px;
+}

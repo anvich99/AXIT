@@ -24,6 +24,7 @@
     display: inline-block;
 }
 .main_tabs__buttons-tab_1{
+    line-height: 40px;
     display: inline-block;
     border: 1px solid #C6CBCD;
     border-bottom:none;
@@ -37,9 +38,9 @@
     color: #333333;
     margin: 1px 0px 0px 0px;
     text-align: center;
-    line-height: 40px;
 }
 .main_tabs__buttons-tab{
+    line-height: 40px;
     display: inline-block;
     border: none;
     border-bottom: 1px solid #C6CBCD;
@@ -52,10 +53,9 @@
     color: #333333;
     margin: 0 -5px 0 -4px;
     text-align: center;
-    line-height: 40px;
 }
 .main_tabs__buttons-tab:last-child{
-    padding-right: 585px;
+    padding-right: 601px;
 }
 .main_tabs-left__title{
     margin: 0;
@@ -94,3 +94,7 @@
     width: 470px;
     height: 500px;
 }
+
+
+
+
