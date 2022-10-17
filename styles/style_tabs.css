@@ -3,9 +3,9 @@
 }
 .container{
     max-width: 1170px;
-    margin: 0 auto 50px auto;
+    margin: 100px auto 50px auto;
 }
-.main_tabs_banner{
+.main-tabs-banner{
     border-left: 1px solid #C6CBCD;
     border-right: 1px solid #C6CBCD;
     border-bottom: 1px solid #C6CBCD;
@@ -13,17 +13,17 @@
     height: 500px;
 }
 
-.main_tabs-left{
+.main-tabs-left{
     display: inline-block;
     height: 500px;
     margin-left: 100px;
     margin-right: 24px;
     vertical-align: top;
 }
-.main_tabs-right{
+.main-tabs-right{
     display: inline-block;
 }
-.main_tabs__buttons-tab_1{
+.main-tabs-buttons__tab_1{
     line-height: 40px;
     display: inline-block;
     border: 1px solid #C6CBCD;
@@ -39,7 +39,7 @@
     margin: 1px 0px 0px 0px;
     text-align: center;
 }
-.main_tabs__buttons-tab{
+.main-tabs-buttons__tab{
     line-height: 40px;
     display: inline-block;
     border: none;
@@ -54,10 +54,10 @@
     margin: 0 -5px 0 -4px;
     text-align: center;
 }
-.main_tabs__buttons-tab:last-child{
+.main-tabs-buttons__tab:last-child{
     padding-right: 601px;
 }
-.main_tabs-left__title{
+.main-tabs-left__title{
     margin: 0;
     height: 83px;
     text-align:left;
@@ -69,7 +69,7 @@
     vertical-align: middle;
     margin-bottom: 27px;
 }
-.main_tabs-left__subtitle{
+.main-tabs-left__subtitle{
     font-family: 'Raleway';
     font-weight: 400;
     font-size: 18px;
@@ -79,7 +79,7 @@
     margin-bottom: 27px;
     text-align: left;
 }
-.main_tabs-left__button{
+.main-tabs-left__button{
     width: 270px;
     height: 58px;
     font-family: 'Open Sans';
@@ -90,7 +90,7 @@
     background: #EC7979;
     border: #EC7979;
 }
-.main_tabs-right__img{
+.main-tabs-right__img{
     width: 470px;
     height: 500px;
 }
