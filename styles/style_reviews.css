@@ -1,9 +1,10 @@
 .container-reviews{
     width: 100%;
-   
+    display: flex;
+    justify-content: center;
 }
 .main-reviews{
-    width: 100%;
+    width: 1171px;
     margin-bottom: 64px;
 }
 .main-reviews__title{

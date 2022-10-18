@@ -1,13 +1,14 @@
 .container_flex{
     display: flex;
+    justify-content: center;
     width: 100%;
-
+    background: #F5F5F5;
 
 }
 .main-pricing{
-    width: 100%;
+    width: 1508px;
     height: 950px;
-    background: #F5F5F5;
+   
 }
 .main-pricing__title{
     font-family: 'Raleway';
@@ -48,6 +49,10 @@
 }
 .main-pricing-items-price:last-child{
     margin-right: 0px;
+}
+.main-pricing-items-price:hover{
+    position: relative;
+    bottom: 20px;
 }
 .main-pricing-items-price__type{
     font-family: 'Open Sans';
