@@ -1,10 +1,10 @@
 .container-reviews{
     width: 100%;
-    display: flex;
+   
 }
 .main-reviews{
-    
     width: 100%;
+    margin-bottom: 64px;
 }
 .main-reviews__title{
     height: 150px;
@@ -15,4 +15,79 @@
     text-align: center;
     text-transform: uppercase;
     color: #000000;
+}
+
+.main-reviews__line{
+    margin: 0 auto 40px auto;
+    border-bottom: 1px solid #EC7979;
+    width: 170px;
+}
+
+.main-reviews__subtitle{
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #86878B;
+}
+.main-reviews-customers{
+    display: flex;
+    justify-content: center;
+    margin-top: 83px;
+
+}
+.main-reviews-customers-item{
+    width: 370px;
+    height: 336px;
+    margin-right: 30px;
+   position: relative;
+}
+.main-reviews-customers-item:last-child{
+    margin-right: 0;
+}
+.main-reviews-customers-item__customer{
+    display: flex;
+}
+.main-reviews-customers-item__text{
+    width: 370px;
+    height: 180px;
+    background: #E2E2E2;
+    border-radius: 10px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #86878B;
+    padding-top: 38px;
+    
+}
+.main-reviews-customers-item__name{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #000000;
+    margin-bottom: 15px;
+}
+.main-reviews-customers-item__customer{
+    margin-top: 66px;
+}
+.main-reviews-customers-item__position{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+.main-reviews-customers-item__photo{
+    margin-right: 30px;
+    width: 70px;
+    height: 70px;
+}
+
+.main-reviews-customers-item__triangle{
+    position: absolute;
+    left: 70px;
 }
