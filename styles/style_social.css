@@ -1,0 +1,23 @@
+.container-social{
+    width: 100%;
+     background: #F8EFEF;
+}
+.main-social{
+    width: 1510px;
+   
+}
+.main-social__title{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: capitalize;
+    color: #333333;
+}
+.main-social__subtitle{
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+}

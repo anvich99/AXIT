@@ -1,7 +1,7 @@
 .main{
     border: 2px solid red;
 }
-.container{
+.container-tabs{
     max-width: 1170px;
     margin: 100px auto 50px auto;
 }
