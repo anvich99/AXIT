@@ -1,0 +1,38 @@
+.container-contact{
+    width: 100%;
+
+}
+.main-contact{
+    margin: 0 auto;
+    width: 1170px;
+}
+.main-contact-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 69px;
+}
+.main-contact__title{
+    margin-top: 50px;
+    height: 150px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 150px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+.main-contact__line{
+    width: 170px;
+    border-bottom: 1px solid #EC7979;
+    margin-bottom: 40px;
+}
+.main-contact__subtitle{
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #86878B;
+}
