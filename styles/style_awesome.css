@@ -1,11 +1,12 @@
-.main-awesome{
+.container-main-awesome{
+    width: 100%;
     
-    max-width: 1170px;
-    margin: 0 auto;
 }  
 
-.main_awesome-block{ 
-    min-height: 665px;
+.main-awesome-block{ 
+    max-width: 1170px;
+    margin: 0 auto;
+    max-height: 665px;
 }
 
 .main-awesome-block__title{

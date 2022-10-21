@@ -1,0 +1,64 @@
+.container-banner-two{
+    position: relative;
+    width: 100%;
+    height: 442px;
+    background-image: url(../img/bg-banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-banner-two::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 3;
+}
+.main-banner-two{
+    position: absolute;
+    width: 1510px;
+    margin: 0 auto;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-banner-two__title{
+    margin-top: 50px;
+    height: 150px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 150px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.main-banner-two__line{
+    border-bottom: 1px solid #FFFFFF;
+    width: 170px;
+}
+.main-banner-two__subtitle{
+    margin-top: 40px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 73px;
+}
+.main-banner-two__button{
+    width: 370px;
+    height: 58px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background: none;
+    border: 2px solid #FFFFFF;
+}
