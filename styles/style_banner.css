@@ -15,13 +15,12 @@
     z-index: 3;
 }
 .main-banner{
+    margin-top: 207px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
     position: absolute;
     z-index: 5;
     width: 1510px;
-    height: 100%;
 }
 .main-banner-left{
     width: 270px;
@@ -34,6 +33,7 @@
     height: 55px;
 }
 .main-banner-left__title{
+    margin-bottom: 55px;
     width: 670px;
     font-family: 'Raleway';
     font-weight: 500;
@@ -43,10 +43,12 @@
     color: #FFFFFF;
 }
 .main-banner-left__line{
+    margin-bottom: 42px;
     width: 170px;
     border: 1px solid #FFFFFF
 }
 .main-banner-left__subtitle{
+    margin-bottom: 42px;
     width: 270px;
     font-family: 'Raleway';
     font-weight: 400;
