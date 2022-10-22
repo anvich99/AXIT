@@ -50,6 +50,7 @@
     margin-bottom: 73px;
 }
 .main-banner-two__button{
+    cursor: pointer;
     width: 370px;
     height: 58px;
     font-family: 'Open Sans';
@@ -61,4 +62,13 @@
     color: #FFFFFF;
     background: none;
     border: 2px solid #FFFFFF;
+}
+.main-banner-two__button:hover{
+    color: #EC7979;
+    border: 2px solid #EC7979;
+}
+.main-banner-two__button:active{
+    color: #FFFFFF;
+    background: #AB4949;
+    border: 2px solid #AB4949;
 }

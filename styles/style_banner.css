@@ -59,6 +59,7 @@
     color: #FFFFFF;
 }
 .main-banner-left__button{
+    cursor: pointer;
     width: 270px;
     height: 58px;
     border: 2px solid #FFFFFF;

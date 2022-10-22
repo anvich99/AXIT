@@ -90,6 +90,14 @@
     background: #EC7979;
     border: #EC7979;
 }
+.main-tabs-left__button:hover{   
+    background: #AB4949;
+    border: #EC7979;
+}
+.main-tabs-left__button:active{
+    background: #EC7979;
+    border: #AB4949;
+}
 .main-tabs-right__img{
     width: 470px;
     height: 500px;
