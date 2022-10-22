@@ -44,6 +44,9 @@
     text-transform: uppercase;
     color: #FFFFFF;
 }
+.main-banner-right__title-pink{
+    color: #EC7979;
+}
 .main-banner-left__line{
     margin-bottom: 42px;
     width: 170px;
@@ -119,7 +122,12 @@
     line-height: 19px;
     color: #BDBDBD;
 }
+.mb-0{
+    margin-bottom: 0;
+}
 .main-banner-right__button{
+    margin-top: 75px;
+    width: 100%;
     font-family: 'Open Sans';
     font-weight: 600;
     font-size: 15px;

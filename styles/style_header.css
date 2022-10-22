@@ -16,9 +16,12 @@
 
 }
 .header-block-menu-nav{
+    width: 134px;
+    height: 76px;
     text-decoration: none;
 }
 .header-block-menu-nav:hover{
+
     background: #EC7979;
 }
 .header-block-menu-nav:active{
@@ -40,7 +43,7 @@
     font-family: 'Open Sans';
     font-weight: 600;
     font-size: 14px;
-    line-height: 19px;
+    line-height: 76px;
     text-align: center;
     text-transform: capitalize;
     color: #FFFFFF;
