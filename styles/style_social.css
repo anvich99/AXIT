@@ -36,3 +36,9 @@
     justify-content: space-between;
     width: 670px;
 }
+
+@media screen and (max-width:1024px) {
+    .main-social{
+        width: 1024px;
+    }
+}

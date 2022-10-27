@@ -1,8 +1,13 @@
 .footer-awesome{
     width: 100%;
+}
+
+.footer-awesome-content{
+    
     background-color: #000;
     height: 164px;
 }
+
 .footer-awesome-content-icons{
     display: flex;
     justify-content: space-between;
@@ -26,4 +31,10 @@
     align-items: center;
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (max-width:1024px) {
+    .footer-awesome-content{
+        width: 1024px;
+    }
 }

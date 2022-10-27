@@ -5,6 +5,8 @@
     background-image: url(../img/bg-banner2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 .container-banner-two::after{
     position: absolute;

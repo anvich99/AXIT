@@ -62,6 +62,7 @@
     color: #86878B;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .main-reviews-customers-item__name{
     font-family: 'Open Sans';
