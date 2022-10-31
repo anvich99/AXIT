@@ -1,10 +1,10 @@
 .container-social{
     width: 100%;
-     background: #F8EFEF;
+    background: #F8EFEF;
 }
 .main-social{
     margin: 0 auto;
-    width: 1510px;
+    max-width: 1510px;
     height: 140px;
     display: flex;
     justify-content: center;
@@ -40,5 +40,24 @@
 @media screen and (max-width:1024px) {
     .main-social{
         width: 1024px;
+        height: 105px;
+    }
+    .main-social__title{
+        height: 45px;
+        font-size: 18px;
+        line-height: 45px;
+        margin-bottom: 13px;
+    }
+    .main-social__subtitle{
+        font-size: 14px;
+        width: 402px;
+    }
+    .main-social-text{
+        margin: 0 20px 13px 16px;
+        
+    }
+    .main-social-icons{
+        justify-content: space-evenly;
+        width: 570px;
     }
 }

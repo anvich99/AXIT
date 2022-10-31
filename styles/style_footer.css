@@ -3,7 +3,6 @@
 }
 
 .footer-awesome-content{
-    
     background-color: #000;
     height: 164px;
 }
@@ -36,5 +35,12 @@
 @media screen and (max-width:1024px) {
     .footer-awesome-content{
         width: 1024px;
+    }
+    .footer-awesome-content__img{
+        width: 45px;
+        height: 45px;
+    }
+    .footer-awesome-content__text{
+        font-size: 14px;
     }
 }

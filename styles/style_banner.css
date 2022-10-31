@@ -23,10 +23,10 @@
     justify-content: space-around;
     position: absolute;
     z-index: 5;
-    width: 1510px;
+    max-width: 1510px;
 }
 .main-banner-left{
-    width: 670px;
+    max-width: 670px;
     margin-left: 170px;
 }
 .main-banner-left__logo-all{
@@ -157,9 +157,28 @@
     .main-banner{
         width: 1024px;
     }
+    .main-banner-left{
+        margin-left: 0;
+        width: 455px;
+    }
+    .main-banner-right{
+        margin-right: 0;
+        width: 398px;
+    }
     .main-banner-left__title{
         width: 455px;
         font-weight: 500;
         font-size: 36px;
+    }
+    .main-banner-right__title{
+        font-size: 18px;
+    }
+    .main-banner-right-form__input{
+        width: 298px;
+    }
+    .main-banner-left__button{
+        width: 183px;
+        height: 50px;
+        font-size: 18px;
     }
 }

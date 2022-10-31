@@ -1,12 +1,9 @@
 .container-contact{
     width: 100%;
-
 }
-
-
 .main-contact{
     margin: 0 auto;
-    width: 1170px;
+    max-width: 1170px;
 }
 .main-contact-head{
     display: flex;
@@ -108,15 +105,35 @@
     border: #EC7979;
 }
 @media screen and (max-width:1024px) {
-    main {
-        margin: 0 auto;
-        width: 100%;
-    }
     .main-contact{
-        width: 1024px;
+        width: 992px;
+    }
+    .main-contact__title{
+        margin-top: 50px;
+        height: 120px;
+        line-height: 120px;
+        font-size: 24px;
+    }
+    .main-contact__subtitle{
+        font-size: 14px;
+    }
+    .main-contact-head{
+        margin-bottom: 72px;
+    }
+    .main-contact-form-inputs{
+        margin-right: 20px;
+    }
+    .main-contact__input{
+        width: 486px;
+        height: 38px;
+    }
+    .main-contact__input::placeholder{
+        margin-bottom: 14px;
     }
     .main-contact__textarea{
-    
-        width: 0;
+        width: 486px;
+    }
+    .main-contact-form__button{
+        width: 318px;
     }
 }

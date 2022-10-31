@@ -6,7 +6,7 @@
 
 }
 .main-pricing{
-    width: 1508px;
+    max-width: 1508px;
     height: 950px;
    
 }
@@ -109,7 +109,46 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .container-pricing{ {
-        width: 75%;
+    .main-pricing{
+        width: 1024px;
+        height: 770px;
+        margin: 0 16px 50px 16px;
+
     }
+    .main-pricing__title{
+        height: 120px;
+        font-size: 24px;
+        line-height: 120px;
+    }
+    .main-pricing__line{
+        margin-bottom: 32px;
+    }
+    .main-pricing__subtitle{
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 50px;
+    }
+    .main-pricing-items-price{
+        width: 318px;
+        height: 453px;
+        margin-right: 20px;
+    }
+    .main-pricing-items-price__type{
+        height: 53px;
+    }
+    .main-pricing-items-price__cost{
+        height: 89px;
+        line-height: 89px;
+    }
+    .main-pricing-items-price__free{
+        height: 44.34px;
+        line-height: 44.34px;
+    }
+    .main-pricing-items-price__size{
+        height: 44.34px;
+        font-size: 18px;
+        line-height: 44.34px;
+    }
+
+
 }

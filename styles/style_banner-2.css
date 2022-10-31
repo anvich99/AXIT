@@ -18,7 +18,7 @@
 }
 .main-banner-two{
     position: absolute;
-    width: 1510px;
+    max-width: 1510px;
     margin: 0 auto;
     z-index: 5;
     display: flex;
@@ -73,4 +73,26 @@
     color: #FFFFFF;
     background: #AB4949;
     border: 2px solid #AB4949;
+}
+@media screen and (max-width:1024px){
+    .container-banner-two{
+        height: 358px;
+    }
+    .main-banner-two{
+        width: 1024px;
+    }
+    .main-banner-two__title{
+        font-size: 24px;
+        height: 120px;
+        line-height: 120px;
+        margin-top: 50px;
+    }
+    .main-banner-two__subtitle{
+        margin-top: 32px;
+        font-size: 14px;
+        margin-bottom: 32px;
+    }
+    .main-banner-two__button{
+        width: 318px;
+    }
 }

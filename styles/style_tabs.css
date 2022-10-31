@@ -5,9 +5,16 @@
     box-sizing: inherit;
 } */
 .container-tabs{
-
-    max-width: 1170px;
+    width: 100%;
     margin: 100px auto 50px auto;
+    display: flex;
+    justify-content: center;
+}
+.main-tabs{
+    max-width: 1170px;
+}
+.main-tabs-buttons{
+    display: flex;
 }
 .main-tabs-banner{
     /* box-sizing: border-box; */
@@ -18,10 +25,11 @@
     /* border-bottom: 1px solid #C6CBCD; */
     margin: -1px 0 0px 0px;
     height: 500px;
+    display: flex;
 }
 
 .main-tabs-left{
-    display: inline-block;
+    /* display: inline-block; */
     height: 500px;
     margin-left: 100px;
     margin-right: 24px;
@@ -67,13 +75,12 @@
 }
 .main-tabs-left__title{
     margin: 0;
-    height: 83px;
+    height: 124px;
     text-align:left;
     font-family: 'Open Sans';
     font-weight: 700;
     font-size: 30px;
-    line-height: 41px;
-    padding-top: 41px;
+    line-height: 124px;
     vertical-align: middle;
     margin-bottom: 27px;
 }
@@ -111,5 +118,56 @@
     height: 500px;
 }
 
+.main-tabs-left__subtitle-2{
+    display: none;
+}
 
+@media screen and (max-width: 1024px){
+    .main-tabs{
+        width: 992px;
+        height: 425px;
+    }
+    .main-tabs-banner{
+        height: 386px;
+    }
+    .main-tabs-left__button{
+        width: 232px;
+        height: 58px;
+        font-size: 18px;
+    }
+    .main-tabs-left{
+        max-width: 483px;
+        margin-left: 85px;
+    }
+    .main-tabs-left__title{
+        width: 483px;
+        height: 89px;
+        line-height: 89px;
+        font-size: 24px;
+        margin-bottom: 38px;
+    }
+    .main-tabs-left__subtitle{
+        display: none;
+    }
+    .main-tabs-left__subtitle-2{
+        display: block;
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 38px;
+        text-align: left;
+    }
+    .main-tabs-buttons__tab_1{
+        width: 173px;
+    }
+    .main-tabs-buttons__tab{
+        width: 156px;
+        margin: 0 -1px 0 -4px;
+    }
+    .main-tabs-right__img{
+        content: url('../img/img.jpg');
+        height: 386px;
 
+    }
+}
