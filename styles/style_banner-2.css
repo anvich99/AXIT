@@ -85,7 +85,6 @@
         font-size: 24px;
         height: 120px;
         line-height: 120px;
-        margin-top: 50px;
     }
     .main-banner-two__subtitle{
         margin-top: 32px;
@@ -94,5 +93,26 @@
     }
     .main-banner-two__button{
         width: 318px;
+    }
+}
+@media screen and (max-width:320px) {
+    .container-banner-two{
+        width: 320px;
+    }
+    .main-banner-two{
+        width: 288px;
+    }
+    .main-banner-two__button{
+        width: 288px;
+        height: 50px;
+    }
+    .main-banner-two__title{
+        margin-top: 0;
+    }
+    .main-banner-two__subtitle{
+        margin-bottom: 50px;
+    }
+    .main-banner-two__line{
+        width: 134px;
     }
 }

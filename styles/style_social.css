@@ -61,3 +61,37 @@
         width: 570px;
     }
 }
+@media screen and (max-width:320px) {
+    .container-social{
+        width: 320px;
+    }
+    .main-social{
+        width: 288px;
+        height: 239px;
+        flex-direction: column;
+    }
+    .main-social-text{
+        width: 288px;
+        margin: 0;
+    }
+    .main-social__title{
+      
+        margin-top: 31px;
+        text-align: center;
+    }
+    .main-social__subtitle{
+        width: 271px;
+        text-align: center;
+        line-height: 16px;
+        margin-right: 0;
+    }
+    .main-social-icons{
+        width: 288px;
+        margin-top: 32px;
+        margin-bottom: 44px;
+    }
+    .main-social__img{
+        width: 26px;
+        height: 26px;
+    }
+}

@@ -49,15 +49,120 @@
     color: #FFFFFF;
 }
 
-
+.adaptive{
+    display: none;
+}
 @media screen and (max-width:1024px) {
     .header-block{
-        width: 1024px;
+        max-width: 1024px;
+        
     }
     .header-block-nav{
         margin-right: 20px;
     }
     .header-block-menu-nav{
         width: 113px;
+    }
+}
+@media screen and (max-width:320px) {
+    .header-block__menu {
+        width: 24px;
+        height: 18px;
+        display: block;
+        position: relative;
+        top: 0;
+        right:0;
+        z-index: 15;
+    }
+
+    .header-block__menu-span {
+        background: white;
+        position: absolute;
+        left: 0;
+        top: 7px;
+        width: 100%;
+        height: 2px;
+        transition: 1s all;
+    }
+
+    .header-block__menu-span::before, .header-block__menu-span::after {
+        content: '';
+        background: white;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        z-index: 4;
+        transition: 0.5s all;
+    }
+
+    .header-block__menu-span::before {
+        top: 8px;
+    }
+
+    .header-block__menu-span::after{
+        bottom: 8px;
+    }
+
+    .header-block__menu-span.active {
+        background: black;
+    }
+
+    .header-block__menu-span.active::before {
+        transform: rotate(-45deg);
+        transition: 0.5s all;
+        top:0;
+    }
+
+    .header-block__menu-span.active::after{
+        transform: rotate(45deg);
+        transition: 0.5s all;
+        bottom: 0;
+    }
+    
+    .header-block-nav.active {
+        display: flex;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 12;
+    height: 100vh;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .header-block-menu.active {
+        display: flex;
+        justify-content: none;
+        flex-direction: column;
+        padding-left: 0px;
+
+    }
+
+    .container-header{
+        max-width: 320px;
+    }
+    .header-block{
+        width: 280px;
+        height: 56px;
+    }
+    .header-block-logo__link{
+        /* margin-left: 0;
+        width: 130px;
+        margin-right: 95px; */
+        display: flex;
+        margin-left: 0;
+    }
+    .header-block-nav{
+        /* content: url('../img/adaptiv.svg');
+        width: 24px;
+        margin-right: 11px; */
+        display: none;
+    }
+    .header-block-logo__link {
+        position: relative;
+        z-index: 15;
     }
 }
